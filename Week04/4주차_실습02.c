@@ -17,7 +17,7 @@ int main()
     scanf_s("%d", &r);
     
     printf("표면적: %lf\n", 4*pi*r*r);
-    printf("체적: %lf\n", 4*pi*r*r*r/3.0)
+    printf("체적: %lf\n", 4 * pi * r * r * r / 3.0);
 
     return 0;
 }
