@@ -15,7 +15,7 @@ int main() {
         printf("4. 계좌정보 전체 출력\n");
         printf("5. 프로그램 종료\n");
         printf("선택: ");
-        scanf("%d", &menu);
+        scanf_s("%d", &menu);
 
         if (menu == 1) {
             while (1) {
@@ -27,9 +27,9 @@ int main() {
 
                 printf("[계좌개설]\n");
                 printf("계좌ID: ");
-                scanf("%d", &inputId);
+                scanf_s("%d", &inputId);
                 printf("입금액: ");
-                scanf("%d", &inputMoney);
+                scanf_s("%d", &inputMoney);
 
                 if (inputId == accId1 || inputId == accId2 || inputId == accId3) {
                     printf("**계좌 개설 실패**\n");
@@ -80,9 +80,9 @@ int main() {
             while (1) {
                 printf("[입 금]\n");
                 printf("계좌ID: ");
-                scanf("%d", &inputId);
+                scanf_s("%d", &inputId);
                 printf("입금액: ");
-                scanf("%d", &inputMoney);
+                scanf_s("%d", &inputMoney);
 
                 if (inputId != accId1 && inputId != accId2 && inputId != accId3) {
                     printf("**입금 실패**\n");
@@ -120,9 +120,9 @@ int main() {
             while (1) {
                 printf("[출 금]\n");
                 printf("계좌ID: ");
-                scanf("%d", &inputId);
+                scanf_s("%d", &inputId);
                 printf("출금액: ");
-                scanf("%d", &inputMoney);
+                scanf_s("%d", &inputMoney);
 
                 if (inputId != accId1 && inputId != accId2 && inputId != accId3) {
                     printf("**출금 실패**\n");
