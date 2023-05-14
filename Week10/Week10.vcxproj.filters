@@ -21,5 +21,8 @@
     <ClCompile Include="10주차_실습02.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="추가.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
