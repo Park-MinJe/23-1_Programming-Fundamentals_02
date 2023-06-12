@@ -24,6 +24,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루�
 		.gitignore = .gitignore
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Week13", "Week13\Week13.vcxproj", "{EACB0990-183D-4316-83A5-F14DA4BEE42A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -96,6 +98,14 @@ Global
 		{E6D9215D-F799-4AFA-BA5A-8F6CA9DF15B5}.Release|x64.Build.0 = Release|x64
 		{E6D9215D-F799-4AFA-BA5A-8F6CA9DF15B5}.Release|x86.ActiveCfg = Release|Win32
 		{E6D9215D-F799-4AFA-BA5A-8F6CA9DF15B5}.Release|x86.Build.0 = Release|Win32
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Debug|x64.ActiveCfg = Debug|x64
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Debug|x64.Build.0 = Debug|x64
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Debug|x86.ActiveCfg = Debug|Win32
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Debug|x86.Build.0 = Debug|Win32
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Release|x64.ActiveCfg = Release|x64
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Release|x64.Build.0 = Release|x64
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Release|x86.ActiveCfg = Release|Win32
+		{EACB0990-183D-4316-83A5-F14DA4BEE42A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
